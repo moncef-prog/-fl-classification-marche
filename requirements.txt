@@ -1,0 +1,15 @@
+# Environnement : Python 3.11 — installer dans .venv
+# pip install -r requirements.txt
+# OU (recommandé, installe aussi PyTorch et les dépendances Fed-BioMed) :
+# pip install "git+https://github.com/fedbiomed/fedbiomed.git"
+
+fedbiomed==6.3.1
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+scipy>=1.10
+matplotlib>=3.7
+jupyter
+ipykernel

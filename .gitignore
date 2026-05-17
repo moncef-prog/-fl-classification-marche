@@ -1,7 +1,19 @@
 # Données médicales - JAMAIS sur git
+data/
 donnees/
 *.npy
+*.npz
 *.csv
+
+# Config Fed-BioMed (certificats, clés privées, base TinyDB)
+nodes_config/
+fbm-researcher/
+
+# Résultats et checkpoints
+resultats/
+
+# Logs d'installation
+install_log.txt
 
 # Modèles sauvegardés
 *.pth
